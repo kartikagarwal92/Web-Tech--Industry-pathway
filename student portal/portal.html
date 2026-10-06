@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Student Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body id="body">
+
+
+    <!-- Header -->
+
+    <header>
+
+        <h1 id="heading">Student Portal</h1>
+
+        <div>
+
+            <button id="changeHeading">
+                Change Heading
+            </button>
+
+            <button id="lightMode">
+                Light Mode
+            </button>
+
+            <button id="darkMode">
+                Dark Mode
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- Main Container -->
+
+    <div class="container">
+
+
+        <!-- Welcome Section -->
+
+        <div class="welcome card">
+
+            <h2>Welcome to Student Portal</h2>
+
+            <p>
+                This is a simple student dashboard.
+            </p>
+
+        </div>
+
+
+
+        <!-- Cards -->
+
+        <div class="cards">
+
+
+            <div class="card">
+
+                <h2>Student Information</h2>
+
+                <p><b>Name:</b> Kartik Agarwal</p>
+
+                <p><b>Course:</b> B.Tech</p>
+
+                <p><b>Branch:</b> Computer Science</p>
+
+                <p><b>Semester:</b> 1</p>
+
+            </div>
+
+
+
+            <div class="card">
+
+                <h2>Top Student</h2>
+
+                <div id="topStudent">
+
+                    Loading...
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- Table Section -->
+
+        <div class="table-card card">
+
+            <h2>Student Marks</h2>
+
+            <button id="toggleButton">
+                Hide Student Table
+            </button>
+
+
+            <div id="tableContainer">
+
+                <table id="studentTable">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Sr. No.</th>
+
+                            <th>Name</th>
+
+                            <th>Course</th>
+
+                            <th>Semester</th>
+
+                            <th>Marks</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody id="studentBody">
+
+                        <!-- JavaScript will add rows here -->
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <footer>
+
+        <p>Student Portal Project</p>
+
+    </footer>
+
+
+
+    <script src="portal.js"></script>
+
+</body>
+
+</html>

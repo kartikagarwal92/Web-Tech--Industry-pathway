@@ -1,0 +1,503 @@
+/* -------------------------
+   BASIC SETTINGS
+------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f4f7;
+
+    color: #222;
+
+    transition: 0.3s;
+}
+
+
+
+/* -------------------------
+   LOGIN PAGE
+------------------------- */
+
+.login-container {
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #e8eef5;
+
+}
+
+
+.login-box {
+
+    width: 350px;
+
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.login-box h1 {
+
+    text-align: center;
+
+    margin-bottom: 5px;
+
+}
+
+
+.subtitle {
+
+    text-align: center;
+
+    color: #666;
+
+    margin-bottom: 25px;
+
+}
+
+
+.login-box label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+
+}
+
+
+.login-box input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #aaa;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+
+}
+
+
+.login-box input:focus {
+
+    outline: none;
+
+    border-color: #333;
+
+}
+
+
+.login-box button {
+
+    width: 100%;
+
+    margin-top: 20px;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: #333;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+
+.login-box button:hover {
+
+    background-color: #555;
+
+}
+
+
+#message {
+
+    text-align: center;
+
+    margin-top: 15px;
+
+}
+
+
+.demo {
+
+    text-align: center;
+
+    font-size: 13px;
+
+    color: #777;
+
+    margin-top: 20px;
+
+}
+
+
+
+/* -------------------------
+   HEADER
+------------------------- */
+
+header {
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 10;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 15px 30px;
+
+    background-color: #333;
+
+    color: white;
+
+}
+
+
+header h1 {
+
+    margin: 0;
+
+}
+
+
+header button {
+
+    padding: 8px 12px;
+
+    margin-left: 5px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+
+header button:hover {
+
+    opacity: 0.8;
+
+}
+
+
+
+/* -------------------------
+   MAIN CONTAINER
+------------------------- */
+
+.container {
+
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: 30px auto;
+
+}
+
+
+
+/* -------------------------
+   CARDS
+------------------------- */
+
+.cards {
+
+    display: flex;
+
+    gap: 20px;
+
+    margin-top: 20px;
+
+}
+
+
+.card {
+
+    background-color: white;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    border: 1px solid #ddd;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+}
+
+
+.cards .card {
+
+    width: 50%;
+
+}
+
+
+.card h2 {
+
+    margin-top: 0;
+
+}
+
+
+
+/* -------------------------
+   TOP STUDENT
+------------------------- */
+
+#topStudent {
+
+    text-align: center;
+
+    padding: 10px;
+
+}
+
+
+#topStudent h3 {
+
+    font-size: 25px;
+
+    margin: 10px;
+
+}
+
+
+
+/* -------------------------
+   TABLE
+------------------------- */
+
+.table-card {
+
+    overflow: hidden;
+
+}
+
+
+#toggleButton {
+
+    padding: 10px 15px;
+
+    margin-bottom: 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: #333;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+
+#toggleButton:hover {
+
+    background-color: #555;
+
+}
+
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+th {
+
+    background-color: #333;
+
+    color: white;
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+}
+
+
+td {
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+    text-align: center;
+
+}
+
+
+tr:hover {
+
+    background-color: #f1f1f1;
+
+}
+
+
+
+/* -------------------------
+   FOOTER
+------------------------- */
+
+footer {
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 30px;
+
+    background-color: #333;
+
+    color: white;
+
+}
+
+
+
+/* -------------------------
+   DARK MODE
+------------------------- */
+
+body.dark {
+
+    background-color: #181818;
+
+    color: white;
+
+}
+
+
+body.dark .card {
+
+    background-color: #252525;
+
+    border-color: #444;
+
+}
+
+
+body.dark tr:hover {
+
+    background-color: #333;
+
+}
+
+
+body.dark .login-box {
+
+    background-color: #252525;
+
+}
+
+
+body.dark .login-container {
+
+    background-color: #181818;
+
+}
+
+
+body.dark .login-box input {
+
+    background-color: #333;
+
+    color: white;
+
+    border-color: #666;
+
+}
+
+
+
+/* -------------------------
+   RESPONSIVE DESIGN
+------------------------- */
+
+@media (max-width: 700px) {
+
+    header {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+
+    .cards {
+
+        flex-direction: column;
+
+    }
+
+
+    .cards .card {
+
+        width: 100%;
+
+    }
+
+
+    table {
+
+        font-size: 12px;
+
+    }
+
+}

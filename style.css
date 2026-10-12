@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #222;
+}
+
+div {
+    background-color: #243b55;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div h2 {
+    margin: 5px;
+}
+
+div a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+div a:hover {
+    color: #66ffbd;
+}
+
+.container {
+    width: 85%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.card {
+    background-color: white;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card h3 {
+    color: #243b55;
+}
+
+button {
+    background-color: #243b55;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #42678d;
+}
+
+input, select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form {
+    max-width: 400px;
+    margin: 25px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+    text-align: left;
+}
+
+form label {
+    display: block;
+}
+
+#message, #result, #searchMessage, #formMessage {
+    color: #176b43;
+    font-weight: bold;
+}
